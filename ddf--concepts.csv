@@ -1,0 +1,11 @@
+concept,name,concept_type
+name,Name,string
+year,Year,time
+country,Country,entity_domain
+sex,Sex,entity_domain
+age_group,Age Group,entity_domain
+long_term_unemployed_000,Long-term unemployed ('000),measure
+total_unemployed_000,Total unemployed ('000),measure
+labour_force_000,Labour force ('000),measure
+long_term_unemployment_rate,Long-term unemployment rate (%),measure
+incidence_of_long_term_unemployment,Incidence of long-term unemployment (%),measure
