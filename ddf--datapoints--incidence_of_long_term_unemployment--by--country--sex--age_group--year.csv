@@ -3974,16 +3974,6 @@ gtm,f,youth,2012,9.5
 gtm,f,adult,2012,20.399999618530273
 ggy,mf,total,2011,21.600000381469727
 ggy,mf,total,2012,15.199999809265137
-hnd,mf,total,1990,
-hnd,mf,youth,1990,
-hnd,mf,adult,1990,
-hnd,m,total,1990,
-hnd,f,total,1990,
-hnd,mf,total,1999,
-hnd,mf,youth,1999,
-hnd,mf,adult,1999,
-hnd,m,total,1999,
-hnd,f,total,1999,
 hkg,mf,total,2009,13.5
 hkg,mf,youth,2009,7.099999904632568
 hkg,mf,adult,2009,15.300000190734863
@@ -8726,7 +8716,6 @@ rus,m,adult,2014,31.100000381469727
 rus,f,total,2014,28.399999618530273
 rus,f,youth,2014,16.700000762939453
 rus,f,adult,2014,32.099998474121094
-vct,mf,total,2008,
 sau,mf,total,2009,18.899999618530273
 sau,mf,youth,2009,10.899999618530273
 sau,mf,adult,2009,25.600000381469727
