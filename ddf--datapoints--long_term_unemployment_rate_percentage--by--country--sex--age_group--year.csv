@@ -1,4 +1,4 @@
-country,sex,age_group,year,long_term_unemployment_rate
+country,sex,age_group,year,long_term_unemployment_rate_percentage
 alb,mf,total,2009,9.0
 alb,mf,youth,2009,14.5
 alb,mf,adult,2009,8.0

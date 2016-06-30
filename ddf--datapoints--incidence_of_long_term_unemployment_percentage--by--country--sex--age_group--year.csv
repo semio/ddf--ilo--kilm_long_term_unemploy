@@ -1,4 +1,4 @@
-country,sex,age_group,year,incidence_of_long_term_unemployment
+country,sex,age_group,year,incidence_of_long_term_unemployment_percentage
 alb,mf,total,2009,65.5
 alb,mf,youth,2009,53.29999923706055
 alb,mf,adult,2009,71.0999984741211

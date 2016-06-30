@@ -1,4 +1,4 @@
-country,sex,age_group,year,total_unemployed_000
+country,sex,age_group,year,total_unemployed_thousands
 alb,mf,total,2009,185.20599365234375
 alb,mf,youth,2009,58.323001861572266
 alb,mf,adult,2009,126.88300323486328

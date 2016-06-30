@@ -1,4 +1,4 @@
-country,sex,age_group,year,labour_force_000
+country,sex,age_group,year,labour_force_thousands
 alb,mf,total,2009,1345.75
 alb,mf,youth,2009,214.6479949951172
 alb,mf,adult,2009,1131.10205078125
