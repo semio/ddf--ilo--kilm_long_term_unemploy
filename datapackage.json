@@ -1,0 +1,216 @@
+{
+    "name": "ddf--ilo--kilm_long_term_unemploy",
+    "language": {
+        "id": "en"
+    },
+    "resources": [
+        {
+            "path": "ddf--concepts.csv",
+            "name": "ddf--concepts",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "concept"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "concept_type"
+                    }
+                ],
+                "primaryKey": "concept"
+            }
+        },
+        {
+            "path": "ddf--datapoints--incidence_of_long_term_unemployment_percentage--by--country--sex--age_group--year.csv",
+            "name": "ddf--datapoints--incidence_of_long_term_unemployment_percentage--by--country--sex--age_group--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "age_group"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "incidence_of_long_term_unemployment_percentage"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "sex",
+                    "age_group",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--labour_force_thousands--by--country--sex--age_group--year.csv",
+            "name": "ddf--datapoints--labour_force_thousands--by--country--sex--age_group--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "age_group"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "labour_force_thousands"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "sex",
+                    "age_group",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--long_term_unemployed_thousands--by--country--sex--age_group--year.csv",
+            "name": "ddf--datapoints--long_term_unemployed_thousands--by--country--sex--age_group--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "age_group"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "long_term_unemployed_thousands"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "sex",
+                    "age_group",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--long_term_unemployment_rate_percentage--by--country--sex--age_group--year.csv",
+            "name": "ddf--datapoints--long_term_unemployment_rate_percentage--by--country--sex--age_group--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "age_group"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "long_term_unemployment_rate_percentage"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "sex",
+                    "age_group",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--total_unemployed_thousands--by--country--sex--age_group--year.csv",
+            "name": "ddf--datapoints--total_unemployed_thousands--by--country--sex--age_group--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "age_group"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "total_unemployed_thousands"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "sex",
+                    "age_group",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--entities--age_group.csv",
+            "name": "ddf--entities--age_group",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "age_group"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": "age_group"
+            }
+        },
+        {
+            "path": "ddf--entities--country.csv",
+            "name": "ddf--entities--country",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": "country"
+            }
+        },
+        {
+            "path": "ddf--entities--sex.csv",
+            "name": "ddf--entities--sex",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sex"
+                    },
+                    {
+                        "name": "name"
+                    }
+                ],
+                "primaryKey": "sex"
+            }
+        }
+    ]
+}
